@@ -1,0 +1,19 @@
+{
+  "name": "skyburn",
+  "version": "1.0.0",
+  "description": "Endless side-scrolling arcade flight game",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve .",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+#game-container {
+  position: relative;
+}
+
+canvas {
+  display: block;
+  image-rendering: pixelated;
+  border: 1px solid #1a1a3a;
+  box-shadow: 0 0 30px rgba(0, 255, 204, 0.15);
+}
+
+@media (max-width: 820px) {
+  canvas {
+    width: 100vw;
+    height: auto;
+  }
+}
